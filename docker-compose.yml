@@ -6,7 +6,6 @@ services:
       context: ./src/frontend/
       dockerfile: develop.Dockerfile
     image: frontend
-    command: npm start
     volumes:
       - ./src/frontend:/code
       - /code/node_modules
